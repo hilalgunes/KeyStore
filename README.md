@@ -23,3 +23,8 @@ This project provides an encryption and decryption manager for Android applicati
 2. Enter a username and password.
 3. Click the `Encrypt` button to encrypt and save the data.
 4. Click the `Decrypt` button to decrypt and display the encrypted data.
+
+## Data Storage
+
+The encrypted data is stored in a `.txt` file located in the device's internal storage under the following path:
+`/data/data/com.example.keystore/files/user_data.txt`
